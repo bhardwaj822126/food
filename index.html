@@ -14,10 +14,19 @@
 							height:200px;
 							float:left;
 							background:#148248;
+							overflow:hidden;
 						}
 				#logoarea img:hover{
-							border-radius:50%;
+									transform:scale(1.5,1.5);
 								}
+			#logoarea img{
+						width:100%;
+						heigth50%;
+						/*transition-property:transform;
+						transition-duration:4s;
+						transition-delay:1s;*/
+						transition:transform 4s;
+					}
 				#titlearea{
 							width:1000px;
 							height:200px;
@@ -33,11 +42,20 @@
 							width:250px;
 							height:200px;
 							float:left;
-							background:#148248;													
+							background:#148248;
+							overflow:hidden;													
 						}
 				#logoarea2 img:hover{
-							border-radius:50%;
+								transform:scale(1.5,1.5);
 								}
+			#logoarea2 img{
+						width:100%;
+						heigth50%;
+						/*transition-property:transform;
+						transition-duration:4s;
+						transition-delay:1s;*/
+						transition:transform 4s;
+					}
 				#under1{
 							background:#A28B55;
 							width:1500px;
@@ -105,6 +123,7 @@
 							padding:5px;
 							margin:40 0px;
 						}
+
 				#under2{
 							width:1500px;
 							height:60px;
@@ -176,6 +195,11 @@
 							background:indigo;
 							float:left;
 						}
+				@media print{
+								mainarea{
+											display:none;
+									}
+							}
 				</style>
 		</head>
 		<body>
@@ -197,7 +221,7 @@
 				</div>
 			<div id="menuarea">	
 					<ul>		
-									<li><a href="home.html">home</a>
+									<li><a href="i class="fa fa-home">home</a>
 											<ul>
 													<li><a href="#">room booking</a></li>
 													<li><a href="#">room cancle</a></li>
@@ -232,13 +256,13 @@
 				<div class="box8">
 						<img src="v1.jpeg"width="300px" height="200px">	
 				</div>	
-				<div class="box8">
+				<div class="box8  fa-5x icn_red wow pulse" data-wow-iteration="infinite" data-wow-duration="500ms">
 						<img src="v2.jpeg"width="300px" height="200px">
 				</div>
-				<div class="box8">
+				<div class="box8  fa-5x icn_red wow pulse" data-wow-iteration="infinite" data-wow-duration="500ms">
 						<img src="v3.jpeg"width="300px" height="200px">
 				</div>
-				<div class="box8">
+				<div class="box8  fa-5x icn_red wow pulse" data-wow-iteration="infinite" data-wow-duration="500ms">
 						<img src="v4.jpeg"width="300px" height="200px">
 				</div>
 				<div class="box8">
